@@ -1,0 +1,157 @@
+#main {
+  width: 1330px;
+  margin: 0px auto;
+  padding-top: 80px;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg.jpg);
+}
+.main-text,
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.main-text * {
+  margin-bottom: 35px;
+}
+.main-text h1 {
+  letter-spacing: 0.2px;
+  margin-top: 104px;
+  font-size: 5.8rem;
+  font-weight: 800;
+  max-width: 540px;
+  color: #252b42;
+}
+.main-text h4 {
+  max-width: 330px;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #737373;
+}
+.main-text-buts * {
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2px;
+  border-radius: 37px;
+  padding: 10px 36px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  line-height: 28px;
+  font-weight: 700;
+  gap: 10px;
+  color: #00a0c1;
+  border: 1px solid #00a0c1;
+}
+.main-text-buts button:hover {
+  color: white;
+  background-color: #ffa62b;
+  border: 1px solid #ffa62b;
+}
+.main-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.main-card-elements {
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.09);
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10px;
+  height: 210px;
+  max-width: 328px;
+  border-radius: 3px;
+  background-color: white;
+}
+.main-card-elements img {
+  padding-right: 240px;
+  margin-top: 39px;
+  height: 48px;
+}
+.main-card-elements * {
+  margin-bottom: 12px;
+  margin-left: 40px;
+}
+.big {
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #252b42;
+}
+.main-card-elements p {
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+
+  text-align: left;
+}
+.main-card-elements:hover {
+  background-color: #ffa62b;
+}
+
+@media only screen and (max-width: 416px) {
+  #main {
+    background-image: none;
+  }
+  .main-text h1 {
+    margin-left: -424px;
+    font-size: 3rem;
+    max-width: 330px;
+    text-align: center;
+  }
+  .main-text h4 {
+    margin-left: -400px;
+    font-size: 2rem;
+    width: 279px;
+    text-align: center;
+  }
+  .main-text-buts {
+    margin-left: -355px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .main-card {
+    margin-left: -423px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .main-card button {
+    margin-bottom: 30px;
+  }
+}

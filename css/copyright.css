@@ -1,0 +1,43 @@
+.copyright {
+  background: #fafafa;
+}
+.cpyr-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.cpyr-icon img {
+  margin-left: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.cpyr-main h6 {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #737373;
+}
+@media (max-width: 416px) {
+  .cpyr-main {
+    max-width: 416px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .cpyr-main h6 {
+    width: 231px;
+    margin: 30px 0px;
+  }
+  .cpyr-icon {
+    margin-left: -85px;
+  }
+}

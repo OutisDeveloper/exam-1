@@ -1,0 +1,111 @@
+.part-1 {
+  margin-left: calc(50% - 250px);
+  margin-bottom: 50px;
+  margin-top: 214px;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+.part-1 h2 {
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+  line-height: 57px;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #252b42;
+}
+.part-1 p {
+  letter-spacing: 0.2px;
+  font-size: 1.4rem;
+  line-height: 20px;
+  font-weight: 500;
+  color: #737373;
+}
+.part-2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.stats {
+  height: 230xp;
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: white;
+}
+.stats img {
+  height: 40px;
+  margin-top: 32px;
+  margin-bottom: 13px;
+}
+.stats h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #252b42;
+}
+.stats h5 {
+  letter-spacing: 0.1px;
+  padding-bottom: 30px;
+  line-height: 24px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+  color: #737373;
+}
+.stats:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 416px) {
+  .part-1 h2 {
+    margin-right: -50px;
+    margin-bottom: 10px;
+  }
+  .part-1 p {
+    width: 225px;
+    margin: 0px auto;
+    margin-right: 85px;
+  }
+  .part-2 {
+    margin-left: 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .part-2 div {
+    margin-bottom: 30px;
+  }
+}
